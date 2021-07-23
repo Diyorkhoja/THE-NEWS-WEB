@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.logo_box{
+    text-align: center;
+    font-weight: bold;
+}
+
+.list_item{
+    margin-right: 15px;
+}
+.list_item:nth-last-child(1){
+    margin-right: 0;
+}
+
+.list_link{
+    text-decoration: none;
+    color: #3A3838;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.list_link:hover{
+    color: #EF4423;
+}
+
+.header_img{
+    display: flex;
+    justify-content: center;
+}
+
+/* main */
+
+.main_top{
+    display: flex;
+    justify-content: center;
+}
+.newslar:nth-child(even){
+    display: flex;
+    flex-direction: column-reverse; 
+}
+
+.main_top .newslar{
+    color: #fff;
+}
+
+.news_img{
+    width: 300px;
+}
+.news_header{
+    font-weight: bold;
+    font-style: 19px;
+    margin: 8px 15px 8px 15px;
+}
+.news_tekst{
+    margin: 0px 15px 15px 15px;
+}
+.main_top .first{
+    background-color: #B71C1C;
+}
+.main_top .second{
+    background-color: #6A1B9A;
+}
+.main_top .third{
+    background-color: #303F9F;
+}
+.main_top .fourth{
+    background-color:  #00695C ;
+}
+.description{
+    width: 300px;
+}
+.h2{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.main_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.h3{
+    font-size: 22px;
+    line-height: 26px;
+    margin: 20px 145px 30px 39px;
+}
+.tekist{
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 30px;
+}
+
+/* footer */
+
+.navbar{
+    background-color: #3A3838;
+}
+.logo_text_footer{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.list_link_footer{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+.list_link_footer:hover{
+    color: #EF4423;
+}
+.wrapper_box_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 29px;
+}
+
+/* by me */
